@@ -18,10 +18,6 @@ if (!isNaN(value)) {
 
 console.log(value)
 
-document.getElementById('days').textContent = day.toString()
-document.getElementById('months').textContent = month.toString()
-document.getElementById('years').textContent = year.toString()
-
 let musicPlayer = document.querySelector('.music-container')
 let trackInfo = document.querySelector('.track-info')
 let trackName = document.querySelector('.trackname')

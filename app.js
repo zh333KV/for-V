@@ -1,12 +1,20 @@
-let anniversary = '2024-8-30'
-let date = new Date(anniversary)
-let dateVal = date.getTime()
-let today = new Date()
-let now = today.getTime()
-let value = now - dateVal
-let day = Math.floor(value / (1000 * 60 * 60 * 24))
-let month = Math.floor(value / (1000 * 60 * 60 * 24 * 30.4375))
-let year = Math.floor(value / (1000 * 60 * 60 * 24 * 365.25))
+let anniversary = '2024-08-30'; // Убедитесь, что месяц с нулем
+let dateVal = Date.parse(anniversary); // Используйте Date.parse
+let today = new Date();
+let now = today.getTime();
+let value = now - dateVal;
+
+if (!isNaN(value)) {
+  let day = Math.floor(value / (1000 * 60 * 60 * 24));
+  let month = Math.floor(value / (1000 * 60 * 60 * 24 * 30.4375));
+  let year = Math.floor(value / (1000 * 60 * 60 * 24 * 365.25));
+
+  document.getElementById('days').textContent = day.toString();
+  document.getElementById('months').textContent = month.toString();
+  document.getElementById('years').textContent = year.toString();
+} else {
+  console.error('Invalid date');
+}
 
 console.log(value)
 

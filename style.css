@@ -284,6 +284,10 @@
     transition-duration: .5s;
 }
 
+#window img{
+    border-radius: 5px;
+}
+
 @media screen and (max-width: 600px) {
 
 body{

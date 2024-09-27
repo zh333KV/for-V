@@ -361,7 +361,7 @@ body{
 }
 
 #catright{
-    right: 2rem
+    right: 2rem;
 }
 
 #padd{
@@ -382,6 +382,6 @@ body{
     transform: scale(0.85);
     left: 0;
     right: 0;
-    width: 250px;
+    width: 220px;
 }
 }

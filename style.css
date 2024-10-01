@@ -289,7 +289,6 @@
 }
 
 @media screen and (max-width: 600px) {
-
 body{
     max-width: 100%;
 }
@@ -383,5 +382,14 @@ body{
     left: 0;
     right: 0;
     width: 220px;
+}
+}
+
+@media screen and (max-width: 410px) {
+#music {
+    transform: scale(0.81);
+    left: 0;
+    right: 0;
+    width: 140px;
 }
 }

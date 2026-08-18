@@ -30,7 +30,7 @@ Want to surprise your favorite person? You can easily use this repository as a t
 Surprise your partner by launching your own version in just 3 steps:
 1. **Fork or Clone the Repository:**
    ```bash
-   git clone https://github.com
+   git clone [https://github.com](https://github.com/zh333KV/for-your-gf.git)
    ```
 2. **Personalize Your Content:**
    * **Images:** Replace the files in the `img/` folder with your favorite photos together.
